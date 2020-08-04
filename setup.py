@@ -14,9 +14,9 @@ setup(
     packages=['rest_meets_djongo'],
 
     install_requires=[
-        'Django<3',
+        'Django<=3',
         'djangorestframework<4',
-        'djongo>=1.3.0,<1.3.1',
+        'djongo>=1.3.0,<1.4',
     ],
 
     setup_requires=['pytest-runner'],
